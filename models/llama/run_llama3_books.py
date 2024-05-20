@@ -215,7 +215,7 @@ if __name__ == '__main__':
         )
 
     for bookname in ['pharma_book.csv', 'nursing_os_book.csv', 'bio_2e_os_book.csv', 'concepts_bio.csv', 'econ_2e_os_book.csv']:
-        df = pd.read_csv(f'/home/ss164/prompting/msr/books/{bookname}')
+        df = pd.read_csv(f'/datasets/oer_openstax/{bookname}')
         result_df = df.copy()
 
         for index, row in result_df.iterrows():
