@@ -208,7 +208,7 @@ if __name__ == '__main__':
             device_map="auto",
         )
         dataset = load_dataset("wikimedia/wikipedia", split="train", data_dir="20231101.en",
-                               cache_dir="/data/ss164/cache/", streaming=True)
+                               cache_dir="/data/cache/", streaming=True)
     else:
         dataset = load_dataset("wikimedia/wikipedia", split="train", data_dir="20231101.en",
                                cache_dir="D:/huggingface_cache", streaming=True)
