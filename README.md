@@ -20,13 +20,3 @@ Use gpt flag as 0 to use LLaMA-70B and 1 to use GPT models.
 ```
 CUDA_VISIBLE_DEVICES=0,1,2,3 python models/llama/run_llama3_books.py --gpt 0
 ```
-
-### If you use this work, please cite: <br>
-```
-@article{sonkar2024many,
-  title={Many-Shot Regurgitation (MSR) Prompting},
-  author={Sonkar, Shashank and Baraniuk, Richard G},
-  journal={arXiv preprint arXiv:2405.08134},
-  year={2024}
-}
-```
