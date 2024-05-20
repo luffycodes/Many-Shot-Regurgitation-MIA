@@ -2,15 +2,15 @@
 
 ## Instructions and folder structure
 
-datasets folders have all the necessary files to run experiments either for OER textbooks or for wikipedia.
+- datasets folders have all the necessary files to run experiments either for OER textbooks or for wikipedia.
 
-Use the file ```crawl_wiki_fresh.py``` to get a fresh batch of wikipedia articles. Currently we crawl articles for April 2024.
+- Use the file ```crawl_wiki_fresh.py``` to get a fresh batch of wikipedia articles. Currently we crawl articles for April 2024.
 
-models folder contain instructions on how to run either a model available on huggingface or any GPT model.
+- models folder contain instructions on how to run either a model available on huggingface or any GPT model.
 
-results folder contains results for OER textbooks and wikipedia.
+- results folder contains results for OER textbooks and wikipedia.
 
-analysis folder contains scripts to run tests on files in the results folder.
+- analysis folder contains scripts to run tests on files in the results folder.
 
 
 ## Run models on datasets
