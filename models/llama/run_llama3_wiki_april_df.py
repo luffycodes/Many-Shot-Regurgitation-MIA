@@ -207,9 +207,9 @@ if __name__ == '__main__':
             torch_dtype=torch.bfloat16,
             device_map="auto",
         )
-        df = pd.read_csv('/home/ss164/prompting/msr/wiki/april_2024_articles_1k_min_trimmed_correct.csv')
+        df = pd.read_csv('/datasets/wiki/fresh_april_2024_wiki/april_2024_articles_1k_min_trimmed_correct.csv')
     else:
-        df = pd.read_csv('D:/Wiki_New/april_2024_articles_1k_min_trimmed_correct.csv')
+        df = pd.read_csv('/datasets/wiki/fresh_april_2024_wiki/april_2024_articles_1k_min_trimmed_correct.csv')
 
     # Example usage
     text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nulla sit amet aliquam lacinia, nisl nisl aliquam nisl, nec aliquam nisl nisl sit amet nisl. Sed euismod, nulla sit amet aliquam lacinia, nisl nisl aliquam nisl, nec aliquam nisl nisl sit amet nisl. Sed euismod, nulla sit amet aliquam lacinia, nisl nisl aliquam nisl, nec aliquam nisl nisl sit amet nisl."
